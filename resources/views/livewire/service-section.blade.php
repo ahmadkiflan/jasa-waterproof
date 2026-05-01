@@ -1,65 +1,133 @@
-<div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-0">
-    <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
-        <div class="col-span-1">
-            <h2 class="text-3xl/tight font-bold text-gray-900 sm:text-4xl">Our Services</h2>
+<!-- Icon Blocks -->
+<div id="service" class="max-w-full bg-gray-50 pt-20">
+    <div class="max-w-7xl px-4 py-10 sm:px-6 lg:px-0 lg:py-14 mx-auto">
+        <!-- Grid -->
+        <div class="grid md:grid-cols-2 gap-12">
+            <div class="lg:w-3/4">
+                <h2 class="text-3xl text-slate-800 font-bold lg:text-4xl">
+                    Layanan Kami: Solusi Perlindungan Menyeluruh
+                </h2>
+                <p class="mt-3 text-slate-800">
+                    Kami menyediakan berbagai metode waterproofing yang disesuaikan dengan kebutuhan struktur bangunan
+                    Anda. Mulai dari area atap hingga ruang bawah tanah.
+                </p>
+                <p class="mt-5">
+                    <a class="inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 hover:underline focus:outline-hidden focus:underline font-medium"
+                        href="#">
+                        Konsultasi Gratis via WhatsApp
+                        <svg class="shrink-0 size-4 transition ease-in-out group-hover:translate-x-1 group-focus:translate-x-1"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="m9 18 6-6-6-6" />
+                        </svg>
+                    </a>
+                </p>
+            </div>
+            <!-- End Col -->
 
-            <p class="mt-4 text-lg text-pretty text-gray-700">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis tenetur, nemo quam
-                voluptas sunt impedit dolorem asperiores aliquid doloribus fugit.
-            </p>
+            <div class="space-y-6 lg:space-y-10">
+                <!-- Icon Block -->
+                <div class="flex gap-x-5 sm:gap-x-8">
+                    <!-- Icon -->
+                    <span
+                        class="shrink-0 inline-flex justify-center items-center size-11 rounded-full bg-white border border-gray-200 text-slate-800 shadow-2xs mx-auto">
+                        <svg class="shrink-0 size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                        </svg>
+                    </span>
+                    <div class="grow">
+                        <h3 class="text-base sm:text-lg font-semibold text-slate-800">
+                            Waterproofing Membrane Bakar
+                        </h3>
+                        <p class="mt-1 text-gray-600">
+                            Pelapisan aspal penguat serat polyester dengan sistem bakar. Sangat tangguh dan tahan cuaca
+                            ekstrem.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Icon Block -->
+
+                <!-- Icon Block -->
+                <div class="flex gap-x-5 sm:gap-x-8">
+                    <!-- Icon -->
+                    <span
+                        class="shrink-0 inline-flex justify-center items-center size-11 rounded-full bg-white border border-gray-200 text-slate-800 shadow-2xs mx-auto">
+                        <svg class="shrink-0 size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2v5Z" />
+                            <path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1" />
+                        </svg>
+                    </span>
+                    <div class="grow">
+                        <h3 class="text-base sm:text-lg font-semibold text-slate-800">
+                            Waterproofing Coating
+                        </h3>
+                        <p class="mt-1 text-gray-600">
+                            Lapisan kedap air berbahan dasar semen atau akrilik yang fleksibel dan mampu menutup
+                            pori-pori dinding secara rapat.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Icon Block -->
+
+                <!-- Icon Block -->
+                <div class="flex gap-x-5 sm:gap-x-8">
+                    <!-- Icon -->
+                    <span
+                        class="shrink-0 inline-flex justify-center items-center size-11 rounded-full bg-white border border-gray-200 text-slate-800 shadow-2xs mx-auto">
+                        <svg class="shrink-0 size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M7 10v12" />
+                            <path
+                                d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z" />
+                        </svg>
+                    </span>
+                    <div class="grow">
+                        <h3 class="text-base sm:text-lg font-semibold text-slate-800">
+                            Injeksi Beton
+                        </h3>
+                        <p class="mt-1 text-gray-600">
+                            Solusi perbaikan bocor tanpa bongkar dengan menyuntikkan cairan khusus ke dalam retakan
+                            struktur beton.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- End Icon Block -->
+                <!-- Icon Block -->
+                <div class="flex gap-x-5 sm:gap-x-8">
+                    <!-- Icon -->
+                    <span
+                        class="shrink-0 inline-flex justify-center items-center size-11 rounded-full bg-white border border-gray-200 text-slate-800 shadow-2xs mx-auto">
+                        <svg class="shrink-0 size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M7 10v12" />
+                            <path
+                                d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z" />
+                        </svg>
+                    </span>
+                    <div class="grow">
+                        <h3 class="text-base sm:text-lg font-semibold text-slate-800">
+                            Coring Beton
+                        </h3>
+                        <p class="mt-1 text-gray-600">
+                            Solusi perbaikan bocor tanpa bongkar dengan menyuntikkan cairan khusus ke dalam retakan
+                            struktur beton.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Icon Block -->
+            </div>
+            <!-- End Col -->
         </div>
-
-        <div class="space-y-6">
-            <div class="flex items-start gap-4">
-                <div class="shrink-0 rounded-lg bg-gray-100 p-3 text-gray-700">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6">
-                        </path>
-                    </svg>
-                </div>
-
-                <div>
-                    <h3 class="text-lg font-semibold text-gray-900">Advanced reporting</h3>
-
-                    <p class="mt-1 text-gray-700">Track metrics that matter with instant insights</p>
-                </div>
-            </div>
-
-            <div class="flex items-start gap-4">
-                <div class="shrink-0 rounded-lg bg-gray-100 p-3 text-gray-700">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z">
-                        </path>
-                    </svg>
-                </div>
-
-                <div>
-                    <h3 class="text-lg font-semibold text-gray-900">Collaboration tools</h3>
-
-                    <p class="mt-1 text-gray-700">Work together seamlessly across your organization</p>
-                </div>
-            </div>
-
-            <div class="flex items-start gap-4">
-                <div class="shrink-0 rounded-lg bg-gray-100 p-3 text-gray-700">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M5.25 14.25h13.5m-13.5 0a3 3 0 0 1-3-3m3 3a3 3 0 1 0 0 6h13.5a3 3 0 1 0 0-6m-16.5-3a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3m-19.5 0a4.5 4.5 0 0 1 .9-2.7L5.737 5.1a3.375 3.375 0 0 1 2.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 0 1 .9 2.7m0 0a3 3 0 0 1-3 3m0 3h.008v.008h-.008v-.008Zm0-6h.008v.008h-.008v-.008Zm-3 6h.008v.008h-.008v-.008Zm0-6h.008v.008h-.008v-.008Z">
-                        </path>
-                    </svg>
-                </div>
-
-                <div>
-                    <h3 class="text-lg font-semibold text-gray-900">Third-party connectors</h3>
-
-                    <p class="mt-1 text-gray-700">Connect with your favorite tools and services</p>
-                </div>
-            </div>
-        </div>
+        <!-- End Grid -->
     </div>
 </div>
+<!-- End Icon Blocks -->

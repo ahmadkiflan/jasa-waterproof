@@ -1,13 +1,11 @@
 <!-- Contact Us -->
-<div class="max-w-full bg-gray-50  px-4 py-20 sm:px-6 lg:px-0 lg:py-30 mx-auto">
+<div id="contact" class="max-w-full bg-gray-50  px-4 pt-20 sm:px-6 lg:px-0  mx-auto">
     <div class="max-w-2xl lg:max-w-5xl mx-auto">
         <div class="text-center">
             <h1 class="text-3xl font-bold text-gray-800 sm:text-4xl">
-                Contact us
+                Hubungi Kami
             </h1>
-            <p class="mt-1 text-gray-600">
-                We'd love to talk about how we can help you.
-            </p>
+
         </div>
 
         <div class="mt-12 grid items-center lg:grid-cols-2 gap-6 lg:gap-16">
@@ -76,7 +74,6 @@
                         <!-- End Toast -->
                     @endif
                 </div>
-
                 <!-- End Toast -->
 
 
