@@ -12,3 +12,4 @@ Route::get('/services', Services::class)->name('services');
 Route::get('/about', About::class)->name('about');
 Route::get('/portofolio', Portofolio::class)->name('portofolio');
 Route::get('/contact', Contact::class)->name('contact');
+
