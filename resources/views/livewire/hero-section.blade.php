@@ -143,7 +143,7 @@
         </div>
     </div>
 
-    <div class="hidden md:block md:absolute md:top-0 md:start-1/2 md:end-0 h-full bg-no-repeat bg-center bg-cover"
+    <div class="hidden md:block md:absolute md:top-0 md:inset-s-1/2 md:inset-e-0 h-full bg-no-repeat bg-center bg-cover"
         style="background-image: url('{{ asset('img/fiqih-alfarish-Z5-vI_pTIhA-unsplash (1).jpg') }}')">
     </div>
     <!-- End Col -->
